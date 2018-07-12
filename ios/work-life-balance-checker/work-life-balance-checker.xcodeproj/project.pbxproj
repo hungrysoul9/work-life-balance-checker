@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77B5AC3620F6621700582128 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B5AC3520F6621700582128 /* AppDelegate.swift */; };
+		77B5AC3820F6621700582128 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B5AC3720F6621700582128 /* ViewController.swift */; };
+		77B5AC3B20F6621700582128 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B5AC3920F6621700582128 /* Main.storyboard */; };
+		77B5AC3D20F6621900582128 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77B5AC3C20F6621900582128 /* Assets.xcassets */; };
+		77B5AC4020F6621900582128 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B5AC3E20F6621900582128 /* LaunchScreen.storyboard */; };
+		77B5AC4B20F6621900582128 /* work_life_balance_checkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B5AC4A20F6621900582128 /* work_life_balance_checkerTests.swift */; };
+		77B5AC5620F6621900582128 /* work_life_balance_checkerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B5AC5520F6621900582128 /* work_life_balance_checkerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77B5AC4720F6621900582128 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77B5AC2A20F6621600582128 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77B5AC3120F6621600582128;
+			remoteInfo = "work-life-balance-checker";
+		};
+		77B5AC5220F6621900582128 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77B5AC2A20F6621600582128 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77B5AC3120F6621600582128;
+			remoteInfo = "work-life-balance-checker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77B5AC3220F6621600582128 /* work-life-balance-checker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "work-life-balance-checker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77B5AC3520F6621700582128 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77B5AC3720F6621700582128 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77B5AC3A20F6621700582128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77B5AC3C20F6621900582128 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77B5AC3F20F6621900582128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77B5AC4120F6621900582128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77B5AC4620F6621900582128 /* work-life-balance-checkerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "work-life-balance-checkerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77B5AC4A20F6621900582128 /* work_life_balance_checkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = work_life_balance_checkerTests.swift; sourceTree = "<group>"; };
+		77B5AC4C20F6621900582128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77B5AC5120F6621900582128 /* work-life-balance-checkerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "work-life-balance-checkerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77B5AC5520F6621900582128 /* work_life_balance_checkerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = work_life_balance_checkerUITests.swift; sourceTree = "<group>"; };
+		77B5AC5720F6621900582128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77B5AC2F20F6621600582128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77B5AC4320F6621900582128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77B5AC4E20F6621900582128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77B5AC2920F6621600582128 = {
+			isa = PBXGroup;
+			children = (
+				77B5AC3420F6621700582128 /* work-life-balance-checker */,
+				77B5AC4920F6621900582128 /* work-life-balance-checkerTests */,
+				77B5AC5420F6621900582128 /* work-life-balance-checkerUITests */,
+				77B5AC3320F6621600582128 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77B5AC3320F6621600582128 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77B5AC3220F6621600582128 /* work-life-balance-checker.app */,
+				77B5AC4620F6621900582128 /* work-life-balance-checkerTests.xctest */,
+				77B5AC5120F6621900582128 /* work-life-balance-checkerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77B5AC3420F6621700582128 /* work-life-balance-checker */ = {
+			isa = PBXGroup;
+			children = (
+				77B5AC3520F6621700582128 /* AppDelegate.swift */,
+				77B5AC3720F6621700582128 /* ViewController.swift */,
+				77B5AC3920F6621700582128 /* Main.storyboard */,
+				77B5AC3C20F6621900582128 /* Assets.xcassets */,
+				77B5AC3E20F6621900582128 /* LaunchScreen.storyboard */,
+				77B5AC4120F6621900582128 /* Info.plist */,
+			);
+			path = "work-life-balance-checker";
+			sourceTree = "<group>";
+		};
+		77B5AC4920F6621900582128 /* work-life-balance-checkerTests */ = {
+			isa = PBXGroup;
+			children = (
+				77B5AC4A20F6621900582128 /* work_life_balance_checkerTests.swift */,
+				77B5AC4C20F6621900582128 /* Info.plist */,
+			);
+			path = "work-life-balance-checkerTests";
+			sourceTree = "<group>";
+		};
+		77B5AC5420F6621900582128 /* work-life-balance-checkerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				77B5AC5520F6621900582128 /* work_life_balance_checkerUITests.swift */,
+				77B5AC5720F6621900582128 /* Info.plist */,
+			);
+			path = "work-life-balance-checkerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77B5AC3120F6621600582128 /* work-life-balance-checker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77B5AC5A20F6621900582128 /* Build configuration list for PBXNativeTarget "work-life-balance-checker" */;
+			buildPhases = (
+				77B5AC2E20F6621600582128 /* Sources */,
+				77B5AC2F20F6621600582128 /* Frameworks */,
+				77B5AC3020F6621600582128 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "work-life-balance-checker";
+			productName = "work-life-balance-checker";
+			productReference = 77B5AC3220F6621600582128 /* work-life-balance-checker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77B5AC4520F6621900582128 /* work-life-balance-checkerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77B5AC5D20F6621900582128 /* Build configuration list for PBXNativeTarget "work-life-balance-checkerTests" */;
+			buildPhases = (
+				77B5AC4220F6621900582128 /* Sources */,
+				77B5AC4320F6621900582128 /* Frameworks */,
+				77B5AC4420F6621900582128 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77B5AC4820F6621900582128 /* PBXTargetDependency */,
+			);
+			name = "work-life-balance-checkerTests";
+			productName = "work-life-balance-checkerTests";
+			productReference = 77B5AC4620F6621900582128 /* work-life-balance-checkerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		77B5AC5020F6621900582128 /* work-life-balance-checkerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77B5AC6020F6621900582128 /* Build configuration list for PBXNativeTarget "work-life-balance-checkerUITests" */;
+			buildPhases = (
+				77B5AC4D20F6621900582128 /* Sources */,
+				77B5AC4E20F6621900582128 /* Frameworks */,
+				77B5AC4F20F6621900582128 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77B5AC5320F6621900582128 /* PBXTargetDependency */,
+			);
+			name = "work-life-balance-checkerUITests";
+			productName = "work-life-balance-checkerUITests";
+			productReference = 77B5AC5120F6621900582128 /* work-life-balance-checkerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77B5AC2A20F6621600582128 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "문희대";
+				TargetAttributes = {
+					77B5AC3120F6621600582128 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					77B5AC4520F6621900582128 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 77B5AC3120F6621600582128;
+					};
+					77B5AC5020F6621900582128 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 77B5AC3120F6621600582128;
+					};
+				};
+			};
+			buildConfigurationList = 77B5AC2D20F6621600582128 /* Build configuration list for PBXProject "work-life-balance-checker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77B5AC2920F6621600582128;
+			productRefGroup = 77B5AC3320F6621600582128 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77B5AC3120F6621600582128 /* work-life-balance-checker */,
+				77B5AC4520F6621900582128 /* work-life-balance-checkerTests */,
+				77B5AC5020F6621900582128 /* work-life-balance-checkerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77B5AC3020F6621600582128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77B5AC4020F6621900582128 /* LaunchScreen.storyboard in Resources */,
+				77B5AC3D20F6621900582128 /* Assets.xcassets in Resources */,
+				77B5AC3B20F6621700582128 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77B5AC4420F6621900582128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77B5AC4F20F6621900582128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77B5AC2E20F6621600582128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77B5AC3820F6621700582128 /* ViewController.swift in Sources */,
+				77B5AC3620F6621700582128 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77B5AC4220F6621900582128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77B5AC4B20F6621900582128 /* work_life_balance_checkerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77B5AC4D20F6621900582128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77B5AC5620F6621900582128 /* work_life_balance_checkerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77B5AC4820F6621900582128 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77B5AC3120F6621600582128 /* work-life-balance-checker */;
+			targetProxy = 77B5AC4720F6621900582128 /* PBXContainerItemProxy */;
+		};
+		77B5AC5320F6621900582128 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77B5AC3120F6621600582128 /* work-life-balance-checker */;
+			targetProxy = 77B5AC5220F6621900582128 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77B5AC3920F6621700582128 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77B5AC3A20F6621700582128 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77B5AC3E20F6621900582128 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77B5AC3F20F6621900582128 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77B5AC5820F6621900582128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77B5AC5920F6621900582128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77B5AC5B20F6621900582128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8447S9XZ4H;
+				INFOPLIST_FILE = "work-life-balance-checker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "studiobnd.work-life-balance-checker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77B5AC5C20F6621900582128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8447S9XZ4H;
+				INFOPLIST_FILE = "work-life-balance-checker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "studiobnd.work-life-balance-checker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		77B5AC5E20F6621900582128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8447S9XZ4H;
+				INFOPLIST_FILE = "work-life-balance-checkerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "studiobnd.work-life-balance-checkerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/work-life-balance-checker.app/work-life-balance-checker";
+			};
+			name = Debug;
+		};
+		77B5AC5F20F6621900582128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8447S9XZ4H;
+				INFOPLIST_FILE = "work-life-balance-checkerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "studiobnd.work-life-balance-checkerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/work-life-balance-checker.app/work-life-balance-checker";
+			};
+			name = Release;
+		};
+		77B5AC6120F6621900582128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8447S9XZ4H;
+				INFOPLIST_FILE = "work-life-balance-checkerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "studiobnd.work-life-balance-checkerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "work-life-balance-checker";
+			};
+			name = Debug;
+		};
+		77B5AC6220F6621900582128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8447S9XZ4H;
+				INFOPLIST_FILE = "work-life-balance-checkerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "studiobnd.work-life-balance-checkerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "work-life-balance-checker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77B5AC2D20F6621600582128 /* Build configuration list for PBXProject "work-life-balance-checker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77B5AC5820F6621900582128 /* Debug */,
+				77B5AC5920F6621900582128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77B5AC5A20F6621900582128 /* Build configuration list for PBXNativeTarget "work-life-balance-checker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77B5AC5B20F6621900582128 /* Debug */,
+				77B5AC5C20F6621900582128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77B5AC5D20F6621900582128 /* Build configuration list for PBXNativeTarget "work-life-balance-checkerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77B5AC5E20F6621900582128 /* Debug */,
+				77B5AC5F20F6621900582128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77B5AC6020F6621900582128 /* Build configuration list for PBXNativeTarget "work-life-balance-checkerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77B5AC6120F6621900582128 /* Debug */,
+				77B5AC6220F6621900582128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77B5AC2A20F6621600582128 /* Project object */;
+}
