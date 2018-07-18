@@ -10,21 +10,79 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--시간체크-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="work_life_balance_checker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FbY-ye-5sD">
+                                <rect key="frame" x="139" y="318" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <accessibility key="accessibilityConfiguration" label="시간체크"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="zcL-TP-0Jd"/>
+                    <tabBarItem key="tabBarItem" title="시간체크" id="zcL-TP-0Jd"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="972" y="33.733133433283363"/>
+        </scene>
+        <!--달력-->
+        <scene sceneID="ldA-LL-CIs">
+            <objects>
+                <viewController id="Y8t-UA-GGM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jJm-gO-Vd6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="TGO-7I-ZZw"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="달력" id="T54-0B-fHT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ssS-I0-K8S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1881" y="34"/>
+        </scene>
+        <!--분석-->
+        <scene sceneID="skt-mt-Soc">
+            <objects>
+                <viewController id="oQz-C1-OIV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="spi-MT-tEg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="zyz-QF-NUh"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="분석" id="f5I-Wi-PUO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YAp-ec-myr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2766" y="34"/>
+        </scene>
+        <!--설정-->
+        <scene sceneID="rsQ-lV-lVC">
+            <objects>
+                <viewController id="3rt-FL-wyC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WKL-xQ-uHc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Pln-cN-yey"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="설정" id="pVs-Jj-mgK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="af3-LE-1fS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3695" y="34"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="vtR-OQ-cD6">
@@ -38,6 +96,9 @@
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="nXw-20-PmO"/>
+                        <segue destination="Y8t-UA-GGM" kind="relationship" relationship="viewControllers" id="p00-Aq-dqB"/>
+                        <segue destination="oQz-C1-OIV" kind="relationship" relationship="viewControllers" id="AgT-fl-SFO"/>
+                        <segue destination="3rt-FL-wyC" kind="relationship" relationship="viewControllers" id="5qs-NH-ose"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Qw-ak-JuF" userLabel="First Responder" sceneMemberID="firstResponder"/>
