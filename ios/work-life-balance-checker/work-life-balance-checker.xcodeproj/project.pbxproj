@@ -15,6 +15,9 @@
 		77B5AC4020F6621900582128 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B5AC3E20F6621900582128 /* LaunchScreen.storyboard */; };
 		77B5AC4B20F6621900582128 /* work_life_balance_checkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B5AC4A20F6621900582128 /* work_life_balance_checkerTests.swift */; };
 		77B5AC5620F6621900582128 /* work_life_balance_checkerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B5AC5520F6621900582128 /* work_life_balance_checkerUITests.swift */; };
+		77D2B2652104C86800324A70 /* CalanderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D2B2642104C86800324A70 /* CalanderViewController.swift */; };
+		77D2B2672104C88200324A70 /* AnalyzeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D2B2662104C88200324A70 /* AnalyzeViewController.swift */; };
+		77D2B2692104C8CB00324A70 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D2B2682104C8CB00324A70 /* ConfigViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		77B5AC5520F6621900582128 /* work_life_balance_checkerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = work_life_balance_checkerUITests.swift; sourceTree = "<group>"; };
 		77B5AC5720F6621900582128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77C7730A210320E700E64DDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = Base.lproj/WorkHistory.swift; sourceTree = "<group>"; };
+		77D2B2642104C86800324A70 /* CalanderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanderViewController.swift; sourceTree = "<group>"; };
+		77D2B2662104C88200324A70 /* AnalyzeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyzeViewController.swift; sourceTree = "<group>"; };
+		77D2B2682104C8CB00324A70 /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
 		AB69EF9DF256E3B875861707 /* Pods_work_life_balance_checker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_work_life_balance_checker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF8FC6AD5CBC4410E0F77B00 /* Pods-work-life-balance-checker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-work-life-balance-checker.release.xcconfig"; path = "Pods/Target Support Files/Pods-work-life-balance-checker/Pods-work-life-balance-checker.release.xcconfig"; sourceTree = "<group>"; };
 		B1DA92EC26BF366B61FC4D19 /* Pods-work-life-balance-checker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-work-life-balance-checker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-work-life-balance-checker/Pods-work-life-balance-checker.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,10 +130,13 @@
 			children = (
 				77B5AC3520F6621700582128 /* AppDelegate.swift */,
 				77B5AC3720F6621700582128 /* TimerViewController.swift */,
+				77D2B2642104C86800324A70 /* CalanderViewController.swift */,
+				77D2B2662104C88200324A70 /* AnalyzeViewController.swift */,
 				77B5AC3920F6621700582128 /* Main.storyboard */,
 				77B5AC3C20F6621900582128 /* Assets.xcassets */,
 				77B5AC3E20F6621900582128 /* LaunchScreen.storyboard */,
 				77B5AC4120F6621900582128 /* Info.plist */,
+				77D2B2682104C8CB00324A70 /* ConfigViewController.swift */,
 			);
 			path = "work-life-balance-checker";
 			sourceTree = "<group>";
@@ -324,8 +333,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77D2B2652104C86800324A70 /* CalanderViewController.swift in Sources */,
 				77B5AC3820F6621700582128 /* TimerViewController.swift in Sources */,
+				77D2B2692104C8CB00324A70 /* ConfigViewController.swift in Sources */,
 				77B5AC3620F6621700582128 /* AppDelegate.swift in Sources */,
+				77D2B2672104C88200324A70 /* AnalyzeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
