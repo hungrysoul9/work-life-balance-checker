@@ -12,6 +12,7 @@ class TimerViewController: UIViewController {
 
     @IBOutlet weak var _lbTime: UILabel!
     var _timer: Timer? = nil
+    var _startDateTime: Date? = nil
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,12 +24,8 @@ class TimerViewController: UIViewController {
 
     @objc func onTimerCallback() {
         let now = Date()
-        let date = DateFormatter()
-        date.locale = Locale(identifier: "ko_kr")
-        date.timeZone = TimeZone(abbreviation: "KST") // "2018-03-21 18:07:27"
-        date.dateFormat = "yyyy-MM-dd HH:mm:ss"
-
-        _lbTime.text = date.string(from: now)
+        let interval = now.timeIntervalSince(_startDateTime!)
+        _lbTime.text = String(interval)
     }
 
     @IBAction func onClickTimerBtn(_ sender: UIButton) {
@@ -41,6 +38,7 @@ class TimerViewController: UIViewController {
         }
         
         sender.setTitle("퇴근", for: .normal)
+        _startDateTime = Date()
         _timer = Timer.scheduledTimer(
             timeInterval: 1
             , target: self
