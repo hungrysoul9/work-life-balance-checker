@@ -50,7 +50,7 @@
         <!--달력-->
         <scene sceneID="ldA-LL-CIs">
             <objects>
-                <viewController id="Y8t-UA-GGM" sceneMemberID="viewController">
+                <viewController id="Y8t-UA-GGM" customClass="CalanderViewController" customModule="work_life_balance_checker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jJm-gO-Vd6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -66,7 +66,7 @@
         <!--분석-->
         <scene sceneID="skt-mt-Soc">
             <objects>
-                <viewController id="oQz-C1-OIV" sceneMemberID="viewController">
+                <viewController id="oQz-C1-OIV" customClass="AnalyzeViewController" customModule="work_life_balance_checker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="spi-MT-tEg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -82,7 +82,7 @@
         <!--설정-->
         <scene sceneID="rsQ-lV-lVC">
             <objects>
-                <viewController id="3rt-FL-wyC" sceneMemberID="viewController">
+                <viewController id="3rt-FL-wyC" customClass="ConfigViewController" customModule="work_life_balance_checker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WKL-xQ-uHc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
