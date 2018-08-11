@@ -51,7 +51,6 @@
 		77B5AC5120F6621900582128 /* work-life-balance-checkerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "work-life-balance-checkerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77B5AC5520F6621900582128 /* work_life_balance_checkerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = work_life_balance_checkerUITests.swift; sourceTree = "<group>"; };
 		77B5AC5720F6621900582128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		77C7730A210320E700E64DDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = Base.lproj/WorkHistory.swift; sourceTree = "<group>"; };
 		77D2B2642104C86800324A70 /* CalanderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanderViewController.swift; sourceTree = "<group>"; };
 		77D2B2662104C88200324A70 /* AnalyzeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyzeViewController.swift; sourceTree = "<group>"; };
 		77D2B2682104C8CB00324A70 /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
