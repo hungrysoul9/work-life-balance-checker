@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		19410A6CC8F6F5CEAF33724E /* Pods_work_life_balance_checker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB69EF9DF256E3B875861707 /* Pods_work_life_balance_checker.framework */; };
 		77B5AC3620F6621700582128 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B5AC3520F6621700582128 /* AppDelegate.swift */; };
 		77B5AC3820F6621700582128 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B5AC3720F6621700582128 /* TimerViewController.swift */; };
 		77B5AC3B20F6621700582128 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B5AC3920F6621700582128 /* Main.storyboard */; };
@@ -18,6 +17,7 @@
 		77D2B2652104C86800324A70 /* CalanderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D2B2642104C86800324A70 /* CalanderViewController.swift */; };
 		77D2B2672104C88200324A70 /* AnalyzeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D2B2662104C88200324A70 /* AnalyzeViewController.swift */; };
 		77D2B2692104C8CB00324A70 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D2B2682104C8CB00324A70 /* ConfigViewController.swift */; };
+		87C9B524CB593CAABFDB2925 /* Pods_work_life_balance_checker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345E08C09A248231F7B58ED7 /* Pods_work_life_balance_checker.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		345E08C09A248231F7B58ED7 /* Pods_work_life_balance_checker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_work_life_balance_checker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD2180927C5F9D3BEC467F9 /* Pods-work-life-balance-checker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-work-life-balance-checker.release.xcconfig"; path = "Target Support Files/Pods-work-life-balance-checker/Pods-work-life-balance-checker.release.xcconfig"; sourceTree = "<group>"; };
+		5FD55B456F46BEAB4C8DDA69 /* Pods-work-life-balance-checker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-work-life-balance-checker.debug.xcconfig"; path = "Target Support Files/Pods-work-life-balance-checker/Pods-work-life-balance-checker.debug.xcconfig"; sourceTree = "<group>"; };
 		77B5AC3220F6621600582128 /* work-life-balance-checker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "work-life-balance-checker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77B5AC3520F6621700582128 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77B5AC3720F6621700582128 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
@@ -54,9 +57,6 @@
 		77D2B2642104C86800324A70 /* CalanderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanderViewController.swift; sourceTree = "<group>"; };
 		77D2B2662104C88200324A70 /* AnalyzeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyzeViewController.swift; sourceTree = "<group>"; };
 		77D2B2682104C8CB00324A70 /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
-		AB69EF9DF256E3B875861707 /* Pods_work_life_balance_checker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_work_life_balance_checker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF8FC6AD5CBC4410E0F77B00 /* Pods-work-life-balance-checker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-work-life-balance-checker.release.xcconfig"; path = "Pods/Target Support Files/Pods-work-life-balance-checker/Pods-work-life-balance-checker.release.xcconfig"; sourceTree = "<group>"; };
-		B1DA92EC26BF366B61FC4D19 /* Pods-work-life-balance-checker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-work-life-balance-checker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-work-life-balance-checker/Pods-work-life-balance-checker.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19410A6CC8F6F5CEAF33724E /* Pods_work_life_balance_checker.framework in Frameworks */,
+				87C9B524CB593CAABFDB2925 /* Pods_work_life_balance_checker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,23 +85,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3259207D26E16751098BD028 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B1DA92EC26BF366B61FC4D19 /* Pods-work-life-balance-checker.debug.xcconfig */,
-				AF8FC6AD5CBC4410E0F77B00 /* Pods-work-life-balance-checker.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		6FE0A5FF30DA8321E339492F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				AB69EF9DF256E3B875861707 /* Pods_work_life_balance_checker.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		77B5AC2920F6621600582128 = {
 			isa = PBXGroup;
 			children = (
@@ -109,8 +92,8 @@
 				77B5AC4920F6621900582128 /* work-life-balance-checkerTests */,
 				77B5AC5420F6621900582128 /* work-life-balance-checkerUITests */,
 				77B5AC3320F6621600582128 /* Products */,
-				3259207D26E16751098BD028 /* Pods */,
-				6FE0A5FF30DA8321E339492F /* Frameworks */,
+				DE911D006E9CFBFDF90D5A90 /* Pods */,
+				F4E249A6062D1395C4EAF56D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -158,6 +141,24 @@
 			path = "work-life-balance-checkerUITests";
 			sourceTree = "<group>";
 		};
+		DE911D006E9CFBFDF90D5A90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FD55B456F46BEAB4C8DDA69 /* Pods-work-life-balance-checker.debug.xcconfig */,
+				3DD2180927C5F9D3BEC467F9 /* Pods-work-life-balance-checker.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F4E249A6062D1395C4EAF56D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				345E08C09A248231F7B58ED7 /* Pods_work_life_balance_checker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -165,11 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77B5AC5A20F6621900582128 /* Build configuration list for PBXNativeTarget "work-life-balance-checker" */;
 			buildPhases = (
-				5B4B9B2FB7BBD68870BA2D64 /* [CP] Check Pods Manifest.lock */,
+				BD90C2F66A4B67E8F0D7B7DB /* [CP] Check Pods Manifest.lock */,
 				77B5AC2E20F6621600582128 /* Sources */,
 				77B5AC2F20F6621600582128 /* Frameworks */,
 				77B5AC3020F6621600582128 /* Resources */,
-				A6099DED508FC78F1EA80148 /* [CP] Embed Pods Frameworks */,
+				CA94F5789116207A6076C9BE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -287,16 +288,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5B4B9B2FB7BBD68870BA2D64 /* [CP] Check Pods Manifest.lock */ = {
+		BD90C2F66A4B67E8F0D7B7DB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-work-life-balance-checker-checkManifestLockResult.txt",
 			);
@@ -305,24 +310,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A6099DED508FC78F1EA80148 /* [CP] Embed Pods Frameworks */ = {
+		CA94F5789116207A6076C9BE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-work-life-balance-checker/Pods-work-life-balance-checker-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
-				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-work-life-balance-checker/Pods-work-life-balance-checker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-work-life-balance-checker/Pods-work-life-balance-checker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-work-life-balance-checker/Pods-work-life-balance-checker-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-work-life-balance-checker/Pods-work-life-balance-checker-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -507,7 +509,7 @@
 		};
 		77B5AC5B20F6621900582128 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1DA92EC26BF366B61FC4D19 /* Pods-work-life-balance-checker.debug.xcconfig */;
+			baseConfigurationReference = 5FD55B456F46BEAB4C8DDA69 /* Pods-work-life-balance-checker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,7 +529,7 @@
 		};
 		77B5AC5C20F6621900582128 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF8FC6AD5CBC4410E0F77B00 /* Pods-work-life-balance-checker.release.xcconfig */;
+			baseConfigurationReference = 3DD2180927C5F9D3BEC467F9 /* Pods-work-life-balance-checker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
